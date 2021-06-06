@@ -219,6 +219,7 @@ h1, h2, h3, h4, h5, h6 {
   background: url("../img/70.png") top center;
   background-size: cover;
   
+  
 }
 
 #hero:before {
@@ -236,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   z-index: 2;
   min-width: 300px;
-  text-align: left;
+
 
 }
 
@@ -258,10 +259,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero p span {
-  color: #053fbb;
+  color: #45505b;
   padding-bottom: 4px;
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
+  font-weight: 550;
 }
 
 @media (min-width: 1024px) {
@@ -272,18 +274,32 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 950px) {
   #hero h1 {
-    font-size: 28px;
+    font-size: 38px;
     line-height: 36px;
+    color:#fff;
   }
   #hero h2,#hero p span{
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+    color: blanchedalmond;
+    font-weight: bold;
   }
   #hero p{
     font-size: 15px;
+    margin-bottom:50px;
+    font-weight: 600;
+  }
+  #hero {
+    width: 100%;
+    height: 100vh;
+    background: url("../img/78.jpeg") top center;
+    background-size: cover;
+    
+    
   }
 }
+
 #retw,#yy{
   pointer-events: none;
 }
